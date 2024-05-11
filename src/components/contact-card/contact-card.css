@@ -1,0 +1,72 @@
+.contact-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #8a8a8a;
+}
+
+.contact-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-info-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.yellow-square {
+    background-color: #f9cf03;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    color: #606060;
+}
+
+.support > span {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+}
+.contact-info >  a {
+    color: #606060;
+    text-decoration: none;
+}
+
+.contact-info > a:hover {
+    color: #f9cf03;
+    text-decoration: underline;
+}
+
+.contact-info > span {
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-icon {
+    margin-right: 5px;
+}
